@@ -1,0 +1,150 @@
+.footer {
+  background-color: #222;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+  font-size: 14px;
+  position: relative;
+  z-index: 100;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-logo h2 {
+  font-size: 2rem;
+  font-family: 'Roboto', sans-serif;
+  color: #ff9800;
+  margin-bottom: 15px;
+  transition: color 0.3s ease;
+}
+
+.footer-logo h2:hover {
+  color: #e68900;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-links li {
+  font-size: 1rem;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover,
+.footer-links a:focus {
+  color: #ff9800;
+  outline: none;
+}
+
+.footer-social {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.social-icon {
+  color: #fff;
+  font-size: 1.5rem;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #444;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.social-icon:hover,
+.social-icon:focus {
+  background-color: #ff9800;
+  transform: scale(1.1);
+  outline: none;
+}
+
+.social-icon.facebook:hover {
+  background-color: #3b5998;
+}
+
+.social-icon.twitter:hover {
+  background-color: #1da1f2;
+}
+
+.social-icon.instagram:hover {
+  background-color: #e1306c;
+}
+.footer-copy p {
+  font-size: 0.9rem;
+  margin-top: 10px;
+  color: #bbb;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    gap: 15px;
+  }
+
+  .footer-logo h2 {
+    font-size: 1.75rem;
+  }
+
+  .footer-links ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer-social {
+    gap: 10px;
+  }
+
+  .social-icon {
+    font-size: 1.25rem;
+    padding: 8px;
+  }
+
+  .footer-copy p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 30px 10px;
+  }
+
+  .footer-logo h2 {
+    font-size: 1.5rem;
+  }
+
+  .footer-links ul {
+    gap: 8px;
+  }
+
+  .social-icon {
+    font-size: 1.1rem;
+    padding: 6px;
+  }
+
+  .footer-copy p {
+    font-size: 0.75rem;
+  }
+}

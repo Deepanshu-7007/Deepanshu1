@@ -1,0 +1,158 @@
+.cart {
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #f8fafc;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cart h2 {
+  font-size: 2rem;
+  font-family: 'Roboto', sans-serif;
+  color: #1e293b;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.cart-empty {
+  text-align: center;
+  margin-top: 2rem;
+  color: #475569;
+}
+
+.cart-empty h2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.cart-empty p {
+  font-size: 1rem;
+  color: #64748b;
+}
+
+.cart-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: #ffffff; 
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.cart-item:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transform: scale(1.02);
+}
+
+.cart-item h3 {
+  font-size: 1.25rem;
+  color: #334155;
+  margin: 0;
+}
+
+.cart-item p {
+  font-size: 1rem;
+  color: #475569;
+  margin: 0.5rem 0;
+}
+
+.cart-remove-btn {
+  background-color: #ef4444;
+  color: #ffffff;
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cart-remove-btn:hover {
+  background-color: #dc2626;
+  transform: translateY(-2px); 
+}
+
+.cart-remove-btn:active {
+  background-color: #b91c1c;
+  transform: translateY(0);
+}
+
+.cart-total {
+  margin-top: 2rem;
+  text-align: right;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.cart-total h3 {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .cart {
+    padding: 1.5rem;
+  }
+
+  .cart h2 {
+    font-size: 1.75rem;
+  }
+
+  .cart-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .cart-item h3 {
+    font-size: 1.1rem;
+  }
+
+  .cart-remove-btn {
+    align-self: flex-start;
+    padding: 0.5rem 0.75rem;
+  }
+
+  .cart-total {
+    text-align: center;
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .cart {
+    padding: 1rem;
+  }
+
+  .cart h2 {
+    font-size: 1.5rem;
+  }
+
+  .cart-item h3 {
+    font-size: 1rem;
+  }
+
+  .cart-item p {
+    font-size: 0.9rem;
+  }
+
+  .cart-remove-btn {
+    font-size: 0.8rem;
+    padding: 0.4rem 0.6rem;
+  }
+
+  .cart-total {
+    font-size: 1rem;
+  }
+}

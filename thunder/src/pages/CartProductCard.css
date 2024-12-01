@@ -1,0 +1,81 @@
+/* CartProductCard.css */
+.cart-product-card {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .cart-product-image {
+    flex: 0 0 80px;
+  }
+  
+  .cart-product-thumbnail {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .cart-product-details {
+    flex: 1;
+    margin-left: 1rem;
+  }
+  
+  .cart-product-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0 0 0.5rem;
+  }
+  
+  .cart-product-price {
+    color: #444;
+    margin: 0 0 0.5rem;
+  }
+  
+  .cart-product-stock {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 1rem;
+  }
+  
+  .cart-quantity-controls {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .cart-quantity-btn {
+    background-color: #ddd;
+    border: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 0 0.5rem;
+  }
+  
+  .cart-quantity-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .cart-quantity-display {
+    font-size: 1rem;
+  }
+  
+  .remove-item-btn {
+    background-color: #f44;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .remove-item-btn:hover {
+    background-color: #d33;
+  }
+  

@@ -1,0 +1,64 @@
+
+
+.homepage {
+    font-family: 'Arial', sans-serif;
+    padding: 0 20px;
+  }
+  
+  .homepage-header {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .welcome-message {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .subtitle {
+    font-size: 1.2rem;
+    color: #777;
+  }
+  
+  .hero {
+    background-color: #f2f2f2;
+    padding: 60px 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hero-content {
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .product-list {
+    margin-top: 30px;
+  }
+  
+  @media (max-width: 768px) {
+    .homepage-header h2 {
+      font-size: 2rem;
+    }
+  
+    .hero-content h1 {
+      font-size: 2rem;
+    }
+  
+    .hero-content p {
+      font-size: 1rem;
+    }
+  }
+  
